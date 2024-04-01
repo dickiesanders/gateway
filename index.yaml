@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  gateway-helm:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2024-04-01T16:17:54.508790875Z"
+    description: The Helm chart for Envoy Gateway
+    digest: e291d94df248b38ee5c0d116d1cfeb69929e529de12a3373c2772c423b999648
+    home: https://gateway.envoyproxy.io/
+    icon: https://raw.githubusercontent.com/envoyproxy/gateway/main/site/assets/icons/logo.svg
+    keywords:
+    - gateway-api
+    - envoyproxy
+    - envoy-gateway
+    - eg
+    maintainers:
+    - name: envoy-gateway-steering-committee
+      url: https://github.com/envoyproxy/gateway/blob/main/GOVERNANCE.md
+    - name: envoy-gateway-maintainers
+      url: https://github.com/envoyproxy/gateway/blob/main/CODEOWNERS
+    name: gateway-helm
+    sources:
+    - https://github.com/envoyproxy/gateway
+    type: application
+    urls:
+    - https://github.com/dickiesanders/gateway/releases/download/gateway-helm-v1.0.0/gateway-helm-v1.0.0.tgz
+    version: v1.0.0
+generated: "2024-04-01T16:17:54.508800784Z"
